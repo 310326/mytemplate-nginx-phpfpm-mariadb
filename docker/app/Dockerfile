@@ -57,3 +57,4 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 USER appagent
 RUN composer global require "laravel/installer"
+ENV PATH $PATH:/home/appagent/.composer/vendor/bin
