@@ -47,5 +47,7 @@ $RECYCLE.BIN/
 # project
 #---------
 misc/*
-var/*
+#var/*
+var/run/*.pid
+var/run/php-fpm/*
 !.gitignore
